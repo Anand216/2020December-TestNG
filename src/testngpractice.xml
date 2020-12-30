@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Automation Test Suite">
+	<test name="DataDriven Test Cases1">
+		<parameter name="url" value="http://automationpractice.com/" />
+		<parameter name="email" value="ani@gmail.com" />
+
+		<classes>
+			<class name="com.parameters.PrameterPractice" />
+		</classes>
+	</test>
+	<test name="DataDriven Test Cases2">
+		<parameter name="url" value="http://automationpractice.com/" />
+		<classes>
+			<class name="com.parameters.PrameterPractice" />
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Suite" duration-ms="20121" started-at="2020-12-30T21:22:23 IST" finished-at="2020-12-30T21:22:43 IST">
+    <groups>
+    </groups>
+    <test name="DataDriven Test Cases1" duration-ms="20121" started-at="2020-12-30T21:22:23 IST" finished-at="2020-12-30T21:22:43 IST">
+      <class name="com.datadriven.test.YahooLoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="setUp" is-config="true" duration-ms="4602" started-at="2020-12-30T21:22:24 IST" finished-at="2020-12-30T21:22:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/account/create]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahooRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="yahooRegistrationTest" duration-ms="272" started-at="2020-12-30T21:22:28 IST" data-provider="getTestData" finished-at="2020-12-30T21:22:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandgupta2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567891E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2001.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-12-30T21:22:29 IST" finished-at="2020-12-30T21:22:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="setUp" is-config="true" duration-ms="3368" started-at="2020-12-30T21:22:29 IST" finished-at="2020-12-30T21:22:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/account/create]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahooRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="yahooRegistrationTest" duration-ms="239" started-at="2020-12-30T21:22:32 IST" data-provider="getTestData" finished-at="2020-12-30T21:22:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandgupta2022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567892E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2002.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="tearDown" is-config="true" duration-ms="92" started-at="2020-12-30T21:22:32 IST" finished-at="2020-12-30T21:22:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="setUp" is-config="true" duration-ms="3257" started-at="2020-12-30T21:22:32 IST" finished-at="2020-12-30T21:22:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/account/create]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahooRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="yahooRegistrationTest" duration-ms="233" started-at="2020-12-30T21:22:36 IST" data-provider="getTestData" finished-at="2020-12-30T21:22:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandgupta2023]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567893E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2003.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="tearDown" is-config="true" duration-ms="140" started-at="2020-12-30T21:22:36 IST" finished-at="2020-12-30T21:22:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="setUp" is-config="true" duration-ms="3129" started-at="2020-12-30T21:22:36 IST" finished-at="2020-12-30T21:22:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/account/create]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahooRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="yahooRegistrationTest" duration-ms="233" started-at="2020-12-30T21:22:39 IST" data-provider="getTestData" finished-at="2020-12-30T21:22:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandgupta2024]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567894E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2004.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-12-30T21:22:39 IST" finished-at="2020-12-30T21:22:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="setUp" is-config="true" duration-ms="3259" started-at="2020-12-30T21:22:39 IST" finished-at="2020-12-30T21:22:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com/account/create]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahooRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="yahooRegistrationTest" duration-ms="234" started-at="2020-12-30T21:22:43 IST" data-provider="getTestData" finished-at="2020-12-30T21:22:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anandgupta2025]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567895E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2005.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.test.YahooLoginTest@48503868]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-12-30T21:22:43 IST" finished-at="2020-12-30T21:22:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datadriven.test.YahooLoginTest -->
+    </test> <!-- DataDriven Test Cases1 -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>
